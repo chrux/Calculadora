@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		E56B0DDA26A3479200D10226 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E56B0DD926A3479200D10226 /* AppDelegate.swift */; };
 		E56B0DDC26A3479200D10226 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E56B0DDB26A3479200D10226 /* SceneDelegate.swift */; };
-		E56B0DDE26A3479200D10226 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E56B0DDD26A3479200D10226 /* ViewController.swift */; };
+		E56B0DDE26A3479200D10226 /* CalculadoraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E56B0DDD26A3479200D10226 /* CalculadoraViewController.swift */; };
 		E56B0DE126A3479200D10226 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E56B0DDF26A3479200D10226 /* Main.storyboard */; };
 		E56B0DE326A3479500D10226 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E56B0DE226A3479500D10226 /* Assets.xcassets */; };
 		E56B0DE626A3479500D10226 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E56B0DE426A3479500D10226 /* LaunchScreen.storyboard */; };
@@ -19,7 +19,7 @@
 		E56B0DD626A3479200D10226 /* Calculadora.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Calculadora.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E56B0DD926A3479200D10226 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E56B0DDB26A3479200D10226 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		E56B0DDD26A3479200D10226 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E56B0DDD26A3479200D10226 /* CalculadoraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculadoraViewController.swift; sourceTree = "<group>"; };
 		E56B0DE026A3479200D10226 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E56B0DE226A3479500D10226 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E56B0DE526A3479500D10226 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -56,15 +56,31 @@
 		E56B0DD826A3479200D10226 /* Calculadora */ = {
 			isa = PBXGroup;
 			children = (
-				E56B0DD926A3479200D10226 /* AppDelegate.swift */,
-				E56B0DDB26A3479200D10226 /* SceneDelegate.swift */,
-				E56B0DDD26A3479200D10226 /* ViewController.swift */,
+				E56B0DEE26A34A2000D10226 /* ViewControllers */,
+				E56B0DED26A34A0600D10226 /* Supporting Files */,
 				E56B0DDF26A3479200D10226 /* Main.storyboard */,
 				E56B0DE226A3479500D10226 /* Assets.xcassets */,
-				E56B0DE426A3479500D10226 /* LaunchScreen.storyboard */,
 				E56B0DE726A3479500D10226 /* Info.plist */,
 			);
 			path = Calculadora;
+			sourceTree = "<group>";
+		};
+		E56B0DED26A34A0600D10226 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E56B0DE426A3479500D10226 /* LaunchScreen.storyboard */,
+				E56B0DD926A3479200D10226 /* AppDelegate.swift */,
+				E56B0DDB26A3479200D10226 /* SceneDelegate.swift */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E56B0DEE26A34A2000D10226 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				E56B0DDD26A3479200D10226 /* CalculadoraViewController.swift */,
+			);
+			path = ViewControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,7 +153,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E56B0DDE26A3479200D10226 /* ViewController.swift in Sources */,
+				E56B0DDE26A3479200D10226 /* CalculadoraViewController.swift in Sources */,
 				E56B0DDA26A3479200D10226 /* AppDelegate.swift in Sources */,
 				E56B0DDC26A3479200D10226 /* SceneDelegate.swift in Sources */,
 			);
