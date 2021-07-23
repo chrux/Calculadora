@@ -13,6 +13,7 @@
 		E56B0DE126A3479200D10226 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E56B0DDF26A3479200D10226 /* Main.storyboard */; };
 		E56B0DE326A3479500D10226 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E56B0DE226A3479500D10226 /* Assets.xcassets */; };
 		E56B0DE626A3479500D10226 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E56B0DE426A3479500D10226 /* LaunchScreen.storyboard */; };
+		E5C6408626AB4D61004F068A /* DoubleFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5C6408526AB4D61004F068A /* DoubleFormatter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		E56B0DE226A3479500D10226 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E56B0DE526A3479500D10226 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E56B0DE726A3479500D10226 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E5C6408526AB4D61004F068A /* DoubleFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoubleFormatter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 		E56B0DD826A3479200D10226 /* Calculadora */ = {
 			isa = PBXGroup;
 			children = (
+				E5C6408426AB4C45004F068A /* Extensiones */,
 				E56B0DEE26A34A2000D10226 /* ViewControllers */,
 				E56B0DED26A34A0600D10226 /* Supporting Files */,
 				E56B0DDF26A3479200D10226 /* Main.storyboard */,
@@ -81,6 +84,14 @@
 				E56B0DDD26A3479200D10226 /* CalculadoraViewController.swift */,
 			);
 			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		E5C6408426AB4C45004F068A /* Extensiones */ = {
+			isa = PBXGroup;
+			children = (
+				E5C6408526AB4D61004F068A /* DoubleFormatter.swift */,
+			);
+			path = Extensiones;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -156,6 +167,7 @@
 				E56B0DDE26A3479200D10226 /* CalculadoraViewController.swift in Sources */,
 				E56B0DDA26A3479200D10226 /* AppDelegate.swift in Sources */,
 				E56B0DDC26A3479200D10226 /* SceneDelegate.swift in Sources */,
+				E5C6408626AB4D61004F068A /* DoubleFormatter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
